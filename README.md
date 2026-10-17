@@ -1,82 +1,32 @@
+# Hi, I'm Sudarshan Ghorode 👋
 
-# Hi there 👋, I'm Sudarshan Ghorode
+M.Tech ECE (VLSI) student at **PES University, Bengaluru**, focused on **digital design and functional verification** with SystemVerilog and UVM.
 
-🎓 M.Tech ECE Student at **PES University, Bengaluru**  
-💻 Aspiring **RTL Design & ASIC Design Verification Engineer**
+## What I work on
 
-I'm passionate about digital design, functional verification, and building reliable hardware systems. My primary interests are SystemVerilog, UVM, protocol-level verification, and assertion-based verification.
+- Protocol-level verification: UVM environments with scoreboards, SystemVerilog assertions and functional coverage
+- RTL design in Verilog and SystemVerilog: FSMs, interfaces, bus protocols
+- M.Tech project: design and verification of a **CAN XL–Ethernet interface** (in progress)
 
-I completed my Post Graduate Diploma in Advanced VLSI Design at **IIIT Bangalore** and have experience in RTL design, verification testbench development, and transistor-level circuit analysis.
+## Featured projects
 
-## 🔧 Technical Skills
+| Project | What it shows | Result |
+|---|---|---|
+| [AXI4-Lite UVM Verification](https://github.com/sudarshanghorode/axi4-lite-uvm-verification) | UVM agent, scoreboard with reference model, 7 assertions, 4 covers | 1,023 transactions, 0 mismatches, 100% functional coverage |
+| [PCIe Data Link Layer UVM Verification](https://github.com/sudarshanghorode/pcie-dll-uvm-verification) | ACK/NAK, 32-bit LCRC, replay buffer and timer, error injection | 6,517 TLPs delivered in order, 0 mismatches under 1,411 injected link errors |
 
-- **HDL:** Verilog, SystemVerilog
-- **Programming:** C, C++, Python, Tcl (Basic), Perl (Basic)
-- **Verification:** UVM, SVA, Functional Coverage, Constrained-Random Testing, Scoreboards
-- **Design:** RTL Design, FSM Design, ASIC Design Flow, Synthesis Constraints, STA
-- **EDA Tools:** Synopsys VCS, ModelSim, NC-Verilog, Vivado, EDA Playground, Cadence Genus, Cadence Virtuoso, NGSpice
-- **Environment:** Linux
+## Skills
 
-## 🚀 Featured Projects
+**Verification:** SystemVerilog, UVM, SVA, functional coverage, constrained-random testing
+**Design:** Verilog, SystemVerilog RTL, FSM design, STA, ASIC design flow
+**Languages:** Python, C/C++, Tcl (basic), Perl (basic)
+**Tools:** Synopsys VCS, ModelSim, Xilinx Vivado, Cadence Genus, Cadence Virtuoso, NGSpice, Linux
 
-### 🔹 AXI4-Lite Register Slave — UVM Verification
-- Developed a UVM environment with driver, monitor, sequencer, and scoreboard.
-- Verified read/write operations, byte-lane writes, and SLVERR responses.
-- Achieved 100% functional coverage with zero mismatches in the reported tests.
-- **Technologies:** SystemVerilog, UVM, Synopsys VCS
+## Experience
 
-### 🔹 PCIe Data Link Layer — UVM Verification
-- Modeled TLP sequence numbers, CRC-32, replay buffering, ACK/NAK DLLPs, and replay timers.
-- Implemented link-error injection for corrupted and dropped packets.
-- Verified packet ordering and replay behaviour with zero mismatches in the reported tests.
-- **Technologies:** SystemVerilog, UVM, Synopsys VCS
+- VLSI Design Trainee, TruChip Solutions via KDEM, IIIT Bangalore (Jan 2025 – Jul 2025)
+- VLSI Intern, EduGuidance Consultancy (Aug 2024 – Mar 2025)
 
-### 🔹 CAN XL–Ethernet Interface
-- Working on a CAN XL controller and Ethernet bridge for hybrid automotive networks.
-- Implemented Ethernet TX/RX state machines with CRC-32 frame checking.
-- Verified data transfer using a loopback testbench.
-- **Technologies:** Verilog, FSM, CRC-32
+## Contact
 
-### 🔹 I²C Master Controller
-- Designed an FSM-based I²C master using Verilog.
-- Implemented Start, Stop, Read, Write, and ACK/NACK operations.
-- Simulated multiple read/write scenarios to validate protocol behaviour.
-- **Technologies:** Verilog, Xilinx Vivado
-
-## 💼 Experience
-
-**VLSI Design Trainee — TruChip Solutions via KDEM, IIIT Bangalore**
-- Worked on RTL design and functional verification using SystemVerilog and UVM.
-- Developed and debugged verification testbenches.
-
-**VLSI Intern — EduGuidance Consultancy Pvt. Ltd. (CoachEd)**
-- Worked on transistor-level circuit analysis and CMOS modelling.
-- Performed PPA optimization and waveform analysis using NGSpice.
-
-## 🎓 Education
-
-- **M.Tech in Electronics and Communication Engineering** — PES University, Bengaluru
-- **Post Graduate Diploma in Advanced VLSI Design** — IIIT Bangalore
-- **B.E. in Electronics and Communication Engineering** — Govt. S.K.S.J. Technological Institute, VTU
-
-## 🏆 Achievements
-
-- 🥈 Runner-Up, CMTI Hackathon
-- 🏅 Creative Thinking Award — Fall Detection Project
-
-## 🎯 Current Focus
-
-- Strengthening SystemVerilog and UVM skills.
-- Exploring PCIe, AXI, and digital interface verification.
-- Learning ASIC design flow, static timing analysis, and formal verification.
-- Building practical projects for RTL Design and ASIC Verification roles.
-
-## 🤝 Connect With Me
-
-- 📧 Email: [sudarshanghorode@gmail.com](mailto:sudarshanghorode@gmail.com)
-- 💼 LinkedIn: [Sudarshan Ghorode](https://www.linkedin.com/in/sudarshan-p-ghorode-85681926b/)
-- 💻 GitHub: [sudarshanghorode](https://github.com/sudarshanghorode)
-
----
-
-⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me to discuss VLSI, RTL design, and functional verification.
+[LinkedIn](https://linkedin.com/in/sudarshan-p-ghorode-85681926b) | sudarshanghorode@gmail.com
